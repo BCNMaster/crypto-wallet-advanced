@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import BottleChainWallet from '../components/BottleChainWallet';
-import WalletAuth from '../components/WalletAuth';
+import BottleChainWallet from '@/components/BottleChainWallet';
+import WalletAuth from '@/components/WalletAuth';
 
 export default function Home() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
